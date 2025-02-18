@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hair Care Solutions</title>
+  <style>
+    /* Basic reset and typography */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    /* Header styling with a big background image from the provided URL */
+    header {
+      background-image: url('https://previews.123rf.com/images/prazis/prazis1610/prazis161000109/65810817-happy-child-standing-with-crutches-disabled-person-on-hill-sunset-health-concept.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px; /* Big header image height */
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+    }
+    header h1 {
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+      padding: 10px 20px;
+      font-size: 2.5em;
+    }
+    /* Navigation tabs styling */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f4f4f4;
+      border-bottom: 1px solid #ddd;
+    }
+    nav button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      background-color: #ddd;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    nav button.active {
+      background-color: #bbb;
+    }
+    /* Section styling */
+    .section {
+      display: none;
+      padding: 20px;
+    }
+    .section.active {
+      display: block;
+    }
+    /* Stylish Section Headings */
+    h2 {
+      margin-top: 20px;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #333;
+      position: relative;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    h2:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 4px;
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      bottom: 0;
+      left: 0;
+      border-radius: 2px;
+    }
+    h3 {
+      margin-top: 15px;
+      font-size: 1.5em;
+      font-weight: 600;
+      color: #555;
+      border-left: 4px solid #ff7e5f;
+      padding-left: 10px;
+      text-transform: capitalize;
+    }
+    p {
+      margin-top: 10px;
+      color: #666;
+    }
+    /* Affiliate box styling */
+    .affiliate {
+      background-color: #f9f9f9;
+      padding: 10px;
+      margin-top: 20px;
+      border: 1px solid #ddd;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section with a Big Image -->
+  <header>
+    <h1>Hair Care Solutions</h1>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav>
+    <button class="tab-button active" data-target="hairFall">Hair Fall</button>
+    <button class="tab-button" data-target="dryness">Dryness</button>
+    <button class="tab-button" data-target="damagedHair">Damaged Hair</button>
+    <button class="tab-button" data-target="frizzyHair">Frizzy Hair</button>
+  </nav>
+
+  <!-- Hair Fall Section -->
+  <div id="hairFall" class="section active">
+    <h2>About Me</h2>
+    <p>
+      Hi, my name is [Your Name]. I'm a law student who also possesses a deep passion and knowledge about hair care.
+      I once struggled with significant hair fall and was deeply concerned about my appearance and self-esteem.
+      After trying various remedies without success, I embarked on a personal journey to learn the basics of hair health.
+      Through dedicated research and personal experimentation, I discovered effective solutions and cures.
+      My mission now is to share this knowledge with you, help you understand the underlying causes of hair fall,
+      and introduce you to products that can foster hair growth and protection.
+    </p>
+    
+    <!-- Hair Fall Image -->
+    <img src="https://www.1mg.com/articles/wp-content/uploads/2018/09/hair-loss-medicines.jpg" alt="Hair Fall">
+
+    <!-- Detailed Explanation -->
+    <h2>Understanding Hair Fall</h2>
+    <h3>What is Hair Fall?</h3>
+    <p>
+      Hair fall refers to the shedding of hair from the scalp—a common condition that affects both men and women.
+      While it occurs naturally to some extent, excessive hair fall can lead to noticeable thinning and baldness.
+    </p>
+    
+    <h3>Why is Hair Fall More Pronounced in Men?</h3>
+    <p>
+      Men often experience higher rates of hair fall due to hormonal factors, particularly the influence of dihydrotestosterone (DHT).
+      Genetics also plays a significant role, making men more susceptible to pattern baldness.
+      Although women experience hair fall as well, the rate and pattern tend to differ.
+    </p>
+
+    <!-- Reasons for Hair Fall -->
+    <h2>Reasons Behind Hair Fall</h2>
+    <h3>Nutritional Deficiency</h3>
+    <p>
+      A lack of essential vitamins and minerals—such as iron, vitamin D, and biotin—can weaken hair strands and lead to increased shedding.
+    </p>
+    <h3>Environmental Factors</h3>
+    <p>
+      Exposure to pollutants, harsh weather conditions, and frequent use of chemical-laden styling products can damage hair and contribute to its fall.
+    </p>
+    <h3>Genetics</h3>
+    <p>
+      Hereditary factors often determine the likelihood of experiencing hair loss, with family history playing a pivotal role.
+    </p>
+    <h3>Stress</h3>
+    <p>
+      Both physical and emotional stress can cause hormonal imbalances, which may trigger significant hair loss over time.
+    </p>
+
+    <!-- Solutions Section -->
+    <h2>How to Solve Hair Fall Problems</h2>
+    <p>
+      Addressing hair fall requires a holistic approach: engage in regular exercise, maintain a balanced diet rich in essential nutrients,
+      get adequate sleep, and manage stress effectively. These lifestyle changes, combined with proper hair care, can significantly reduce hair fall.
+    </p>
+
+    <!-- Affiliate Products Section -->
+    <h2>Recommended Products</h2>
+    <div class="affiliate">
+      <p>
+        Here are some of our top-recommended hair care products designed to promote hair growth and strengthen your locks:
+      </p>
+      <ul>
+        <li><a href="https://example.com/product1" target="_blank">Hair Growth Serum</a></li>
+        <li><a href="https://example.com/product2" target="_blank">Nourishing Shampoo</a></li>
+        <li><a href="https://example.com/product3" target="_blank">Deep Conditioning Treatment</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Dryness Section -->
+  <div id="dryness" class="section">
+    <h2>Understanding Dry Hair</h2>
+    <p>
+      Dry hair is a condition where your hair lacks adequate moisture and natural oils, leading to a dull, brittle appearance.
+      It can be caused by environmental factors, overuse of heat styling tools, and frequent chemical treatments. In many cases,
+      dry hair is an early sign that your hair is not receiving the hydration it needs.
+    </p>
+    
+    <!-- Dry Hair Image -->
+    <img src="https://skinkraft.com/cdn/shop/articles/Dry-Hair_1024x400.jpg?v=1584625777" alt="Dry Hair">
+    
+    <h3>Causes of Dryness</h3>
+    <p>
+      The primary causes of dry hair include:
+    </p>
+    <ul>
+      <li><strong>Environmental Factors:</strong> Exposure to harsh sunlight, wind, and dry climates can strip hair of its moisture.</li>
+      <li><strong>Over-Washing and Chemical Exposure:</strong> Frequent washing or the use of shampoos with harsh chemicals can deplete natural oils.</li>
+      <li><strong>Heat Styling:</strong> Excessive use of blow dryers, straighteners, and curling irons can cause moisture loss.</li>
+    </ul>
+    
+    <h3>Managing and Treating Dry Hair</h3>
+    <p>
+      To combat dryness, it is important to adopt a hair care routine that focuses on hydration and nourishment. Use sulfate-free shampoos,
+      deep-conditioning treatments, and natural oils like argan or coconut oil. Avoid excessive heat styling and consider using a humidifier
+      during dry seasons to maintain moisture levels.
+    </p>
+    
+    <h3>Prevention Tips</h3>
+    <p>
+      - Limit washing to a few times a week to preserve natural oils.<br>
+      - Use lukewarm water instead of hot water when washing hair.<br>
+      - Apply leave-in conditioners or hair masks regularly to lock in moisture.
+    </p>
+    
+    <!-- Affiliate Products Section -->
+    <h2>Recommended Products</h2>
+    <div class="affiliate">
+      <p>
+        Discover our range of hydrating products designed to transform dry, brittle hair into soft, manageable locks:
+      </p>
+      <ul>
+        <li><a href="https://example.com/product4" target="_blank">Hydrating Shampoo</a></li>
+        <li><a href="https://example.com/product5" target="_blank">Moisturizing Conditioner</a></li>
+        <li><a href="https://example.com/product6" target="_blank">Nourishing Hair Oil</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Damaged Hair Section -->
+  <div id="damagedHair" class="section">
+    <h2>Understanding Damaged Hair</h2>
+    <p>
+      Damaged hair often results from excessive exposure to heat styling tools, chemical treatments like coloring or perming, and environmental stress.
+      When the protective cuticle layer of the hair is compromised, the hair becomes brittle, prone to breakage, and loses its natural shine.
+    </p>
+    
+    <!-- Damaged Hair Image -->
+    <img src="https://numehair.com/cdn/shop/articles/signs_of_heat_damaged_hair_nume.jpg?v=1674256054" alt="Damaged Hair">
+    
+    <h3>Common Signs of Damage</h3>
+    <p>
+      Look out for split ends, breakage, dullness, and a rough texture. These are all indicators that your hair's protein structure has been compromised.
+    </p>
+    
+    <h3>Repairing Damaged Hair</h3>
+    <p>
+      Repair begins with a gentle hair care routine. Use protein-rich masks, deep conditioners, and limit the use of heat styling tools. Regular trims
+      can help remove split ends and promote healthier hair growth.
+    </p>
+    
+    <h3>Preventing Future Damage</h3>
+    <p>
+      To keep your hair resilient, invest in heat protectant sprays, avoid over-processing, and maintain a balanced diet rich in vitamins and minerals.
+      Natural treatments, such as oil massages and herbal rinses, can also contribute to long-term hair health.
+    </p>
+    
+    <!-- Affiliate Products Section -->
+    <h2>Recommended Products</h2>
+    <div class="affiliate">
+      <p>
+        Explore our curated selection of products that help repair and rejuvenate damaged hair:
+      </p>
+      <ul>
+        <li><a href="https://example.com/product7" target="_blank">Repairing Conditioner</a></li>
+        <li><a href="https://example.com/product8" target="_blank">Strengthening Serum</a></li>
+        <li><a href="https://example.com/product9" target="_blank">Deep Repair Mask</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Frizzy Hair Section -->
+  <div id="frizzyHair" class="section">
+    <h2>Understanding Frizzy Hair</h2>
+    <p>
+      Frizzy hair occurs when the hair's cuticle is raised, allowing moisture to pass through and swell the strands. This is often exacerbated by high humidity,
+      damage, or a lack of proper moisture balance. Frizz can make hair appear unruly and difficult to manage.
+    </p>
+    
+    <!-- Frizzy Hair Image -->
+    <img src="https://media.post.rvohealth.io/wp-content/uploads/2021/04/frizzy-hair-732x549-thumbnail.jpg" alt="Frizzy Hair">
+    
+    <h3>What Causes Frizzy Hair?</h3>
+    <p>
+      Several factors contribute to frizz, including:
+    </p>
+    <ul>
+      <li><strong>Humidity:</strong> Excess moisture in the air causes hair to swell and frizz.</li>
+      <li><strong>Lack of Moisture:</strong> Dry hair often becomes frizzy when the cuticle is damaged and unable to retain moisture.</li>
+      <li><strong>Heat Damage:</strong> Overuse of styling tools can weaken the hair’s natural structure.</li>
+    </ul>
+    
+    <h3>Effective Solutions for Frizzy Hair</h3>
+    <p>
+      To tame frizz, use anti-frizz serums, hydrating conditioners, and smoothing treatments. A regular deep-conditioning regimen will help keep the cuticle flat,
+      reducing frizz and enhancing shine.
+    </p>
+    
+    <h3>Styling Tips for Frizzy Hair</h3>
+    <p>
+      - Use a microfiber towel or a soft T-shirt to dry your hair gently.<br>
+      - Apply leave-in conditioners and serums immediately after washing.<br>
+      - Avoid frequent touching of your hair to maintain its natural cuticle structure.
+    </p>
+    
+    <!-- Affiliate Products Section -->
+    <h2>Recommended Products</h2>
+    <div class="affiliate">
+      <p>
+        Check out our range of products designed to control frizz and provide lasting smoothness:
+      </p>
+      <ul>
+        <li><a href="https://example.com/product10" target="_blank">Anti-Frizz Serum</a></li>
+        <li><a href="https://example.com/product11" target="_blank">Smoothing Conditioner</a></li>
+        <li><a href="https://example.com/product12" target="_blank">Hydrating Hair Mask</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- JavaScript for Tabbed Navigation -->
+  <script>
+    const buttons = document.querySelectorAll('.tab-button');
+    const sections = document.querySelectorAll('.section');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons and sections
+        buttons.forEach(btn => btn.classList.remove('active'));
+        sections.forEach(sec => sec.classList.remove('active'));
+        // Activate clicked tab and corresponding section
+        button.classList.add('active');
+        document.getElementById(button.getAttribute('data-target')).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
